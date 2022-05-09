@@ -1,4 +1,6 @@
 sudo: required
+language: generic
+
 services:
   - docker
 
@@ -13,7 +15,7 @@ deploy:
   region: 'us-east-1'
   app: 'docker-react'
   env: 'Dockerreact-env'
-  bucket_name: 'elasticbeanstalk-us-east-1-463685425694'
+  bucket_name: 'elasticbeanstalk-us-east-1-792027914920'
   bucket_path: 'docker-react'
   on:
     branch: main
